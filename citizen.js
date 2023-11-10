@@ -18,7 +18,7 @@ export default class Citizen {
         return (this.name);
     }
     
-    addAddress(address) {
+    set addAddress(address) {
         this.address = address;
     }
 
